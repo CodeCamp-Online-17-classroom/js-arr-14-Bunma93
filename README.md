@@ -1,8 +1,9 @@
-# js-lab-99
-### Lab99 Array: การสร้างตัวแปรจากตัวแปร3
-ให้สร้างตัวแปร Array ที่เกิดจากการนำค่า element ใน a และ b มาต่อกัน
+# js-lab-100
+### Lab100 Array: การclone array
+จงสร้างฟังก์ชัน clone(arr) เพื่อ return ค่า Array ที่มี element เหมือน arr ทุกตัว
 
 ```JavaScript
-const a = [1, 5, 7, 11];
-const b = [2, 3, 6];
+const originalArray = [1, 2, 3, 4, 5];
+const clonedArray = clone(originalArray);
+console.log(clonedArray); // [1, 2, 3, 4, 5]
 ```
